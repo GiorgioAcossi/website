@@ -1,0 +1,82 @@
+    #logo {
+        width: 80px;
+        height: auto;
+    }
+    
+    #hero {
+        position: relative;
+        height: 100vh;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("immagini/image.jpg") no-repeat center center;
+        background-size: cover;
+        overflow: hidden;
+    }
+    
+    .mb-10 {
+        margin-bottom: 10rem;
+    }
+    
+    .mt-10 {
+        margin-top: 10rem;
+    }
+    
+    .pt-10 {
+        padding-top: 10rem;
+    }
+    
+    .pt-7 {
+        padding-top: 7rem;
+    }
+    
+    .pb-10 {
+        padding-bottom: 10rem;
+    }
+    
+    .space {
+        margin-top: 5rem;
+    }
+    
+    .nav-masthead .nav-link {
+        font-size: 15px;
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.5);
+        background-color: transparent;
+        border-bottom: 0.25rem solid transparent;
+    }
+    
+    .below-nav {
+        border: 1px solid red;
+        padding-top: 25px;
+    }
+    
+    .nav-masthead .nav-link:hover,
+    .nav-masthead .nav-link:focus {
+        border-bottom-color: rgba(255, 255, 255, 0.25);
+    }
+    
+    .nav-masthead .active {
+        color: #fff;
+        border-bottom-color: #fff;
+    }
+    
+    .bg-light-dark {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    
+    .my-button {
+        width: 25%;
+        min-width: 250px;
+    }
+    
+    .progress_bar_height {
+        height: 20px;
+    }
+    
+    .block-space {
+        padding-top: 80px;
+    }
+    
+    @media screen and (max-width: 540px) {
+        .block-space {
+            padding-top: 120px;
+        }
+    }
