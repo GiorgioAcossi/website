@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (nav) {
         new bootstrap.ScrollSpy(document.body, {
             target: '#navbar',
-            offset: 75,
+            offset: 400,
         });
     };
 
