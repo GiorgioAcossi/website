@@ -16,7 +16,7 @@
 <body data-bs-spy="scroll" data-bs-target="#navbar">
 
     <!--navbar-->
-    <nav id="navbar" class="text-center shadow  fixed-top pb-2 pt-3">
+    <nav id="navbar" class="text-center fixed-top pb-2 pt-3">
         <div class="container">
             <div class="float-sm-start"><img id="logo" src="immagini/ag.png"></div>
             <div class="float-sm-end">
@@ -33,6 +33,9 @@
                 </nav>
             </div>
     </nav>
+
+
+
 
     <!--hero-->
     <div id="hero" class="d-flex align-items-center ">
@@ -57,25 +60,29 @@
     <div id="about" class=" block-space ">
         <div class="container">
             <div class="row d-flex align-items-center justify-content-center reveal_buttom">
-                <div class="col-12 col-md-5 p-3">
+                <div class="col-12 col-lg-6 p-3">
                     <img src="immagini/image.jpg" class="img-fluid rounded" alt="">
                 </div>
-                <div class="col-12 col-md-7 pt-3">
-                    <p class="text-center display-5 fw-bold">Chi sono ?</p>
+                <div class="col-12 col-lg-6 pt-3">
+                    <p class="display-5 fw-bold">Chi sono ?</p>
                     <div class="text-left text-muted">
                         <p>
-                            Ciao sono Giorgio e ho 22 anni. Interessante vero? <br> Ho una grande passione per la tecnoliga, cerco sempre di rimanere aggiornato riguardo, sia per quanto riguarda lo sviluppo software e non solo. <br> Durante le scuole
-                            superiori ho avuto modo di realizzare diversi progetti programmando con arduino e realizzando oggetti con stampati 3D, scattò una scintilla!<br> Decisi che nella vita avrei fatto lo sviluppatore, capace di dare vita alle sue
-                            idee, che affronta ogni giorno nuovi problemi cercando di risolveri nel miglior modo possibile.<br> Per avere una solida formazione di base ho deciso di frequentare l'università di informatica del Piemonte Orientale, dove ho
-                            conseguito la laurea triennale nel 2021.<br> In parallelo all'università ho approfondito le mie competenze tecniche utilizzando le risorse disponibili in rete e seguendo corsi su piattaforme di e-learning.
+                            Ciao sono Giorgio e ho 22 anni. Interessante vero? <br> Ho una grande passione per la tecnoliga, cerco sempre di rimanere aggiornato sia per quanto riguarda lo sviluppo software e non solo. <br> Durante le scuole superiori
+                            ho avuto modo di realizzare diversi progetti programmando con arduino e realizzando oggetti con stampati 3D, scattò una scintilla!<br> Decisi che nella vita avrei fatto lo sviluppatore, capace di dare vita alle sue idee, che
+                            affronta ogni giorno nuovi problemi cercando di risolveri nel miglior modo possibile.<br> Per avere una solida formazione di base ho deciso di frequentare l'università di informatica del Piemonte Orientale, dove ho conseguito
+                            la laurea triennale nel 2021.<br> In parallelo all'università ho approfondito le mie competenze tecniche utilizzando le risorse disponibili in rete e seguendo corsi su piattaforme di e-learning.
                         </p>
                     </div>
+
                 </div>
             </div>
             <div class="row pt-3 d-flex align-items-center justify-content-center reveal_buttom">
-                <div class="col-12 col-md-7 pt-3">
+                <div class="col-12 d-block d-lg-none col-lg-6 p-3">
+                    <img src="immagini/image.jpg" class="img-fluid rounded" alt="">
+                </div>
+                <div class="col-12 col-lg-6 pt-3">
                     <div class="text-left">
-                        <p class="text-center display-5 fw-bold">Esperienze</p>
+                        <p class="display-5 fw-bold">Esperienze</p>
                         <div class="text-left text-muted">
                             <p>
                                 Durante il mio percorso universitario ho avuto modo di sviluppare dei progetti da solo o in gruppo, utilizzando diverse tecnologie. <br> Durante il terzo anno ho svolto lo stage universitario presso la sede di Alessandria
@@ -85,7 +92,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-5 p-3">
+                <div class="col-12 d-none d-lg-block col-lg-6 p-3">
                     <img src="immagini/image.jpg" class="img-fluid rounded" alt="">
                 </div>
             </div>
@@ -275,11 +282,11 @@
 
                     <div class="row mt-3 mb-3">
                         <div class="col-sm-6 d-flex align-content-around flex-wrap ">
-                            <input name="nome " class=" mt-2" id="nameInput " placeholder="Nome e cognome" type="text" required>
-                            <input type="email" name="email " class=" mt-2" id="emailInput " placeholder="Email " required>
+                            <input name="nome " class="form-control mt-2" id="nameInput " placeholder="Nome e cognome" type="text" required>
+                            <input type="email" name="email " class="form-control mt-2" id="emailInput " placeholder="Email " required>
                         </div>
                         <div class="col-sm-6">
-                            <textarea name="messaggio " class="form mt-2" id="textAreaInput " rows="3 " placeholder="Messaggio " type="text" required></textarea>
+                            <textarea name="messaggio " class="form-control mt-2" id="textAreaInput " rows="3 " placeholder="Messaggio " type="text" required></textarea>
                         </div>
                     </div>
 
