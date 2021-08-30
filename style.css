@@ -39,6 +39,7 @@
         font-size: 15px;
         font-weight: bold;
         color: rgba(255, 255, 255, 0.5);
+        color: #fff;
         background-color: transparent;
         border-bottom: 0.25rem solid transparent;
     }
@@ -47,21 +48,27 @@
         border: 1px solid red;
         padding-top: 25px;
     }
-    /*
-    .nav-masthead .nav-link:hover,
-    .nav-masthead .nav-link:focus {
-        border-bottom-color: rgba(255, 255, 255, 0.25);
+    
+    @media screen and (min-width: 540px) {
+        .nav-masthead .nav-link {
+            font-size: 15px;
+            font-weight: bold;
+            color: #fff;
+            background-color: transparent;
+        }
+        .nav-masthead .nav-link:hover,
+        .nav-masthead .nav-link:focus {
+            border-bottom-color: rgba(255, 255, 255, 0.25);
+        }
+        .nav-masthead .active {
+            color: #fff;
+            border-bottom-color: #fff;
+        }
     }
-    */
     
     p {
         font-size: 16px;
         ;
-    }
-    
-    .nav-masthead .active {
-        color: #fff;
-        border-bottom-color: #fff;
     }
     
     .bg-light-dark {
@@ -180,25 +187,10 @@
         transition: all .4s ease-in-out;
     }
     
-    .btn:hover,
-    input[type="submit"]:hover {
-        -webkit-transition: all .4s ease-in-out;
-        -moz-transition: all .4s ease-in-out;
-        -ms-transition: all .4s ease-in-out;
-        -o-transition: all .4s ease-in-out;
-        transition: all .4s ease-in-out;
-    }
-    
     .btn-white {
         border: solid 2px #fff;
         background: transparent;
         color: #fff !important;
-    }
-    
-    .btn-white:hover {
-        border: solid 2px #fff;
-        background: #fff;
-        color: #1f1f1f !important;
     }
     
     .btn-dark,
@@ -208,18 +200,32 @@
         color: #1f1f1f;
     }
     
-    .btn-dark:hover,
-    input[type="submit"]:hover,
-    .btn-dark.active {
-        border: solid 2px #1f1f1f;
-        background: #1f1f1f;
-        color: #fff;
-    }
-    
     .btn-color {
         background: transparent;
     }
     
-    .btn-color:hover {
-        color: #fff;
+    @media screen and (min-width: 540px) {
+        .btn:hover,
+        input[type="submit"]:hover {
+            -webkit-transition: all .4s ease-in-out;
+            -moz-transition: all .4s ease-in-out;
+            -ms-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+        }
+        .btn-white:hover {
+            border: solid 2px #fff;
+            background: #fff;
+            color: #1f1f1f !important;
+        }
+        .btn-dark:hover,
+        input[type="submit"]:hover,
+        .btn-dark.active {
+            border: solid 2px #1f1f1f;
+            background: #1f1f1f;
+            color: #fff;
+        }
+        .btn-color:hover {
+            color: #fff;
+        }
     }
