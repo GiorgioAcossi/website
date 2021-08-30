@@ -85,6 +85,11 @@ p {
   .block-space {
     padding-top: 120px;
   }
+
+  p {
+    font-size: 18px;
+  }
+  
 }
 
 body {
