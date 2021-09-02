@@ -1,244 +1,251 @@
 #logo {
-  width: 80px;
-  height: auto;
+    width: 80px;
+    height: auto;
 }
 
 #hero {
-  position: relative;
-  height: 100vh;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
-    url("immagini/image.jpg") no-repeat center center;
-  background-size: cover;
-  overflow: hidden;
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("immagini/image.jpg") no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .mb-10 {
-  margin-bottom: 10rem;
+    margin-bottom: 10rem;
 }
 
 .mt-10 {
-  margin-top: 10rem;
+    margin-top: 10rem;
 }
 
 .pt-10 {
-  padding-top: 10rem;
+    padding-top: 10rem;
 }
 
 .pt-7 {
-  padding-top: 7rem;
+    padding-top: 7rem;
 }
 
 .pb-10 {
-  padding-bottom: 10rem;
+    padding-bottom: 10rem;
 }
 
 .space {
-  margin-top: 5rem;
+    margin-top: 5rem;
 }
 
 .nav-masthead .nav-link {
-  font-size: 15px;
-  font-weight: bold;
-  color: rgba(255, 255, 255, 0.5);
-  color: #fff;
-  background-color: transparent;
-  border-bottom: 0.25rem solid transparent;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 0.25rem solid transparent;
 }
 
 .below-nav {
-  border: 1px solid red;
-  padding-top: 25px;
+    border: 1px solid red;
+    padding-top: 25px;
 }
+
 .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+    color: #fff;
+    border-bottom-color: #fff;
 }
+
 @media screen and (min-width: 540px) {
-  .nav-masthead .nav-link:hover,
-  .nav-masthead .nav-link:focus {
-    border-bottom-color: rgba(255, 255, 255, 0.25);
-  }
+    .nav-masthead .nav-link:hover,
+    .nav-masthead .nav-link:focus {
+        border-bottom-color: rgba(255, 255, 255, 0.25);
+    }
 }
 
 p {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .bg-light-dark {
-  background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .my-button {
-  width: 25%;
-  min-width: 250px;
+    width: 25%;
+    min-width: 250px;
 }
 
 .progress_bar_height {
-  height: 20px;
+    height: 20px;
 }
 
 .block-space {
-  padding-top: 80px;
+    padding-top: 80px;
 }
 
 @media screen and (max-width: 540px) {
-  .block-space {
-    padding-top: 120px;
-  }
-
-  p {
-    font-size: 18px;
-  }
-  
+    .block-space {
+        padding-top: 120px;
+    }
+    p {
+        font-size: 18px;
+    }
 }
 
 body {
-  font: 13px/22px Helvetica;
+    font: 13px/22px Helvetica;
 }
 
 .buttons {
-  overflow: hidden;
+    overflow: hidden;
 }
 
-.buttons > div {
-  width: calc(50% - 40px);
-  padding: 20px;
-  float: left;
-  position: fixed;
-  bottom: 0;
-  top: 0;
+.buttons>div {
+    width: calc(50% - 40px);
+    padding: 20px;
+    float: left;
+    position: fixed;
+    bottom: 0;
+    top: 0;
 }
 
 .buttons .dark {
-  background: #000;
-  left: 50%;
+    background: #000;
+    left: 50%;
 }
 
 .buttons a {
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 20px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 a#link {
-  position: absolute;
-  left: 20px;
-  bottom: 10px;
-  text-decoration: none;
-  color: #555;
-  font-weight: bold;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
 }
+
+
 /*------------------------------------------------------*/
+
+
 /* BUTTONS */
+
+
 /*------------------------------------------------------*/
 
 .btn,
 input[type="submit"] {
-  cursor: pointer;
-  border-radius: 0px;
-  text-decoration: none;
-  padding: 12px 18px;
-  font-size: 12px;
-  line-height: 19px;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  letter-spacing: 3px;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.btn-mid {
-  border-radius: 0px;
-  text-decoration: none;
-  padding: 14px 21px;
-  font-size: 14px;
-  line-height: 25px;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  letter-spacing: 3px;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.btn-big {
-  border-radius: 0px;
-  text-decoration: none;
-  padding: 18px 24px;
-  font-size: 16px;
-  line-height: 40px;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  letter-spacing: 3px;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.btn-white {
-  border: solid 2px #fff;
-  background: transparent;
-  color: #fff !important;
-}
-
-.btn-dark,
-input[type="submit"] {
-  border: solid 2px #1f1f1f;
-  background: transparent;
-  color: #1f1f1f;
-}
-
-.btn-color {
-  background: transparent;
-}
-
-@media screen and (min-width: 540px) {
-  .btn:hover,
-  input[type="submit"]:hover {
+    cursor: pointer;
+    border-radius: 0px;
+    text-decoration: none;
+    padding: 12px 18px;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-  }
-  .btn-white:hover {
+}
+
+.btn-mid {
+    border-radius: 0px;
+    text-decoration: none;
+    padding: 14px 21px;
+    font-size: 14px;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-big {
+    border-radius: 0px;
+    text-decoration: none;
+    padding: 18px 24px;
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-white {
     border: solid 2px #fff;
-    background: #fff;
-    color: #1f1f1f !important;
-  }
-  .btn-dark:hover,
-  input[type="submit"]:hover,
-  .btn-dark.active {
+    background: transparent;
+    color: #fff !important;
+}
+
+.btn-dark,
+input[type="submit"] {
     border: solid 2px #1f1f1f;
-    background: #1f1f1f;
-    color: #fff;
-  }
-  .btn-color:hover {
-    color: #fff;
-  }
+    background: transparent;
+    color: #1f1f1f;
 }
 
-input ,textarea{
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 3px solid #ccc;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  outline: none;
+.btn-color {
+    background: transparent;
 }
 
-input:focus ,textarea:focus{
-  border: 3px solid #555;
+@media screen and (min-width: 540px) {
+    .btn:hover,
+    input[type="submit"]:hover {
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+    .btn-white:hover {
+        border: solid 2px #fff;
+        background: #fff;
+        color: #1f1f1f !important;
+    }
+    .btn-dark:hover,
+    input[type="submit"]:hover,
+    .btn-dark.active {
+        border: solid 2px #1f1f1f;
+        background: #1f1f1f;
+        color: #fff;
+    }
+    .btn-color:hover {
+        color: #fff;
+    }
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border: 3px solid #555;
 }

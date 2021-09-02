@@ -14,7 +14,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     ScrollReveal().reveal('.reveal_right', { origin: 'right', distance: '20%', duration: 1000, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 500 });
 
-    ScrollReveal().reveal('.reveal_buttom', { distance: '20%', duration: 1000, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 500 });
+    ScrollReveal().reveal('.reveal_buttom', { distance: '20%', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 250 });
+
+    ScrollReveal().reveal('.reveal_buttom_speed', { distance: '20%', duration: 1000, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 100 });
 
     ScrollReveal().reveal('.reveal', { duration: 2000, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 500 });
 
