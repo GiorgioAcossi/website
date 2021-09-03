@@ -3,6 +3,10 @@ document.addEventListener("DOMContentLoaded", function() {
     // let body = document.querySelector('body');
     // body.classList.toggle('');
 
+    var load = document.getElementById('load');
+    console.log(load);
+    load.classList.remove('load');
+
     window.addEventListener('scroll', function() {
         var nav = document.getElementById('navbar');
         console.log(nav);
