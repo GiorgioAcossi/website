@@ -1,13 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-    // let body = document.querySelector('body');
-    // body.classList.toggle('');
+    setTimeout(() => {
+        load.classList.remove('load');
+    }, 100);
 
-    /*
-        setTimeout(() => {
-            load.classList.remove('load');
-        }, 200);
-    */
 
     window.addEventListener('scroll', function() {
         var nav = document.getElementById('navbar');
