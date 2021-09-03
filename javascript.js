@@ -3,9 +3,11 @@ document.addEventListener("DOMContentLoaded", function() {
     // let body = document.querySelector('body');
     // body.classList.toggle('');
 
-    var load = document.getElementById('load');
-    console.log(load);
-    load.classList.remove('load');
+
+    setTimeout(() => {
+        load.classList.remove('load');
+    }, 200);
+
 
     window.addEventListener('scroll', function() {
         var nav = document.getElementById('navbar');
