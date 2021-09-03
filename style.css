@@ -6,7 +6,7 @@
 #hero {
     position: relative;
     height: 100vh;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("immagini/image.jpg") no-repeat center center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("immagini/image.webp") no-repeat center center;
     background-size: cover;
     overflow: hidden;
 }
