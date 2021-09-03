@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", function() {
     // let body = document.querySelector('body');
     // body.classList.toggle('');
 
-
-    setTimeout(() => {
-        load.classList.remove('load');
-    }, 200);
-
+    /*
+        setTimeout(() => {
+            load.classList.remove('load');
+        }, 200);
+    */
 
     window.addEventListener('scroll', function() {
         var nav = document.getElementById('navbar');
@@ -35,5 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
             offset: 400,
         });
     };
+
+
 
 });
